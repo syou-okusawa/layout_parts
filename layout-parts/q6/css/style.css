@@ -2,4 +2,52 @@
 
 /* 回答はここに書いてね */
 
+.btn__small {
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 0 15px;
+  line-height: 26px;
+}
+
+.btn__middle {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 32px;
+}
+
+.btn__large {
+  border-radius: 7px;
+  font-size: 24px;
+  padding: 0 25px;
+  line-height: 38px;
+}
+
+.btn__cmmon {
+  background-color: #00bcd4;
+  color: #FFF;
+}
+
+.btn__error {
+  background-color: #ff4081;
+  color: #FFF;
+}
+
+.btn__disabled {
+  background-color: #e5e5e5;
+  color: #FFF;
+}
+
+.btn__shadow {
+  background-color: #FFF;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12);
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 10px 0 0;
+}
 /* 回答はここに書いてね */

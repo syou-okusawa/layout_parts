@@ -1,5 +1,34 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+table{
+  margin: 0 auto;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+
+th {
+  border: solid #dedede 1px;
+  background-color: #24a;
+  padding: 14px 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+td {
+  border: solid #dedede 1px;
+  padding: 10px 0;
+  line-height: 22px;
+}
+
+table > tbody > tr:last-child {
+  border-top: dashed 2px;
+}
+
+table > tbody > tr:nth-child(odd){
+  background-color: #ecf1f2;
+}
+
 
 /* 回答はここに書いてね */
